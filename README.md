@@ -9,11 +9,11 @@ Ping-Pong
 >---------------------------
 >
 ### Specifications
-* number divisible by three it output's ping.
-* number divisible by five it shows pong.
-* number divisible by both three and five it shows pingpong.
-###example
->
+* Numbers divisible by 3 are replaced with "ping"
+* Numbers divisible by 5 are replaced with "pong"
+* Numbers divisible by 15 are replaced with "pingpong"
+
+### Example
 >if you use the number 15 the output will be as follows:
 >
 >1
