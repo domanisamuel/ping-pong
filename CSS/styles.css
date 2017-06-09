@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background-color: #ccc;
+}
+.header{
+    padding: 0;
+    height: 100px;
+    width:100%;
+    background-color: #32CD32;
+}
+.bg-1{
+    padding: 0;
+}
+
+.content-1{
+    font-family: 'Handlee', Open Sans;
+    text-align: justify;
+    margin: 1rem;
+    background-color: #faebd7;
+    padding: 10%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);;
+}
+.content-2{
+    font-family: 'Handlee', Open Sans;
+    font-size: 20px;
+    margin: 1rem;
+    padding: 3%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.content-3{
+    font-family: 'Handlee', Open Sans;
+    margin: 1rem;
+    background-color: #ffb6c1;
+    padding: 10%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.btn{
+    background-color: #990000;
+    color: white;
+    font-size: 14px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=text], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

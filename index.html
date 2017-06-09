@@ -3,23 +3,64 @@
     <head>
         <title>jquery</title>
         <link href="CSS/styles.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Handlee">
     </head>
 <body>
- <!--input--->
-<div class="layout">
-    <form id="ping-pong">
-        <input type="text" id="number">
-        <button type="submit" class="btn">Let's Go!</button>
-    </form>
+<!--Header-->
+<div class="col-md-12 header">
+    
+</div>
+<!--End Header-->
+ 
+<!--input--->    
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 header"></div>
+        <div class="col-md-4 bg-1">
+            <div class="content-1">
+                <h1>About Ping Pong</h1>
+                <h3>Created By:</h3>
+                <p>Domani Samuel</p>
+                <h3><a href="https://github.com/domanisamuel"><i class="fa fa-github" aria-hidden="true" style="font-size:30px; color:#000000;"></i></a></h3>
+                <p>lorem ipsum</p>
+                <h3>Level 2 Test for:</h3>
+                <p>Javascript</p>
+            </div>
+        </div>
+        <div class="col-md-8 bg-1">
+            <div class="content-2">
+                <h1>Let's PLay</h1>
+                <h3>YRules</h3>
+                <form id="ping-pong">
+                    <input type="text" id="number">
+                    <button type="submit" class="btn">Let's Go!</button>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-12 bg-1">
+        <div class="content-3">
+            <!--results--->
+                <ul id="output">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>    
+        
     
 <!--results--->
     <ul id="output">
 
     </ul>
     
-</div>
-
+<!--Bootstrap scripts-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+<!--Jquery scripts-->
 <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="JS/script.js"></script>
 </body>
